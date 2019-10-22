@@ -45,17 +45,33 @@ $(document).ready(function() {
     $(".booleans-info").fadeToggle();
     $(".booleans1").fadeToggle();
   })
-/*
+
+
+
+
+
+
+
   $(".true").click(function(){
-    $(".lastpanel").removeClass();
-    $(".lastpanel").addClass("green-background");
+    $(".panel-color").css("background", "#CDE7A9");
+
   })
 
   $(".false").click(function(){
-    $(".lastpanel").removeClass();
-    $(".lastpanel").addClass("red-background");
+    $(".panel-color").css("background", "#F3C23D");
+
   })
-*/
+
+
+
+
+
+
+
+
+
+
+
 
   $(".meow").click(function() {
     $("ul.cat-list").prepend("<li>Meow!</li>");
