@@ -59,9 +59,28 @@ $(document).ready(function() {
 
   $(".meow").click(function() {
     $("ul.cat-list").prepend("<li>Meow!</li>");
+
+    $("ul").children("li").last().click(function(){
+        $(this).remove();
+    })
+    $(".cat-list").before("<h4>Im a kitty cat</h4>")
   });
 
   $(".bark").click(function() {
+    $(".dog-list").after('<p>Dogs are better</p>').first();
     $("ul.dog-list").prepend("<li>Bark!</li>");
+
+    $("ul").children("li").last().click(function(){
+        $(this).remove();
   });
+
+  });
+  $(".show").click(function() {
+    $(".bark").before( $ (".spoon").fadeIn());
+  });
+
+  $(".rem").click(function(){
+    $(".spoon").fadeOut();
+  });
+
 });

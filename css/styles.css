@@ -40,3 +40,9 @@
   background-color: pink;
 }
 */
+
+img {
+  display: none;
+  width: 100px;
+  height:auto;
+}
