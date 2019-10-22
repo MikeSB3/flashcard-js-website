@@ -17,3 +17,26 @@
 .variables-info {
     display: none;
 }
+
+.jquery-info {
+    display: none;
+}
+
+.comments-info {
+    display: none;
+}
+
+.booleans-info {
+    display: none;
+}
+
+/*
+.booleans .green-background {
+  background-color: lightgreen;
+
+}
+
+.booleans .red-background {
+  background-color: pink;
+}
+*/
