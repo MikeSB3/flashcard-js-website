@@ -35,6 +35,13 @@ body {
     display: none;
 }
 
+.dog-list {
+  text-align: left;
+}
+.cat-list {
+  text-align: left;
+}
+
 #dogcat {
   display: none;
   margin-left: auto;
