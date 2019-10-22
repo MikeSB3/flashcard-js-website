@@ -1,0 +1,19 @@
+.func-info {
+  display: none;
+}
+
+.methods-info {
+    display: none;
+}
+.arguments-info{
+    display: none;
+}
+.strings-info {
+    display: none;
+}
+.alerts-info {
+    display: none;
+}
+.variables-info {
+    display: none;
+}
