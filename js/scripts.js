@@ -64,22 +64,14 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
   $(".meow").click(function() {
     $("ul.cat-list").prepend("<li>Meow!</li>");
 
     $("ul").children("li").last().click(function(){
         $(this).remove();
     })
-    $(".cat-list").before("<h4>Im a kitty cat</h4>")
+    $(".cat-list").before("<h4>Im a kitty cat</h4>");
+    $("#catdog").show();
   });
 
   $(".bark").click(function() {
@@ -88,11 +80,12 @@ $(document).ready(function() {
 
     $("ul").children("li").last().click(function(){
         $(this).remove();
-  });
+      });
+    $("#dogcat").show();
 
   });
   $(".show").click(function() {
-    $(".bark").before( $ (".spoon").fadeIn());
+    $(".jumbotron").after( $ (".spoon").fadeIn());
   });
 
   $(".rem").click(function(){
