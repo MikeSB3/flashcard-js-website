@@ -46,3 +46,55 @@ img {
   width: 100px;
   height:auto;
 }
+
+label[for="exampleInputEmail1"] {
+  color:red;
+}
+
+#story {
+  display: none;
+}
+
+#hi5 {
+  display: none;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#purp {
+  display: i;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mongoose {
+  display: none;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maroon {
+  background-color: #BC2100;
+
+}
+
+.chartruse {
+  background-color: #BFFF00;
+}
+
+.amethyst {
+  background-color: #9966CC;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

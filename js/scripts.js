@@ -83,4 +83,37 @@ $(document).ready(function() {
     $(".spoon").fadeOut();
   });
 
+  $("#formOne").submit(function(event){
+    var exampleInputEmail1Input = $("input#exampleInputEmail1").val();
+
+    $(".exampleInputEmail1").text(exampleInputEmail1Input);
+    $("#story").show();
+
+    event.preventDefault();
+  })
+
+  $("#maroon").click(function(){
+    $("body").removeClass();
+    $("body").addClass("maroon");
+    $("#hi5").toggle();
+    $("#purp").hide();
+    $("#mongoose").hide();
+  });
+
+  $("#chartruse").click(function(){
+    $("body").removeClass();
+    $("body").addClass("chartruse");
+    $("#mongoose").toggle();
+    $("#hi5").hide();
+    $("#purp").hide();
+  })
+
+  $("#amethyst").click(function(){
+    $("body").removeClass();
+    $("body").addClass("amethyst");
+    $("#purp").toggle();
+    $("#hi5").hide();
+    $("#mongoose").hide();
+  })
+
 });
